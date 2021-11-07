@@ -56,7 +56,8 @@ def validate_ip(ip_address):
                 raise ValueError
     except ValueError:
         print('Неверный формат IP-адреса.')
-        sys.exit(1)
+        # sys.exit(1)
+        raise  # вызываем исключение повторно для прохождения тестов в test_utils.py
 
 
 def validate_port(port):
@@ -71,4 +72,5 @@ def validate_port(port):
             raise ValueError
     except ValueError:
         print('В качастве порта может быть указано только число в диапазоне от 1024 до 65535.')
-        sys.exit(1)
+        # sys.exit(1)
+        raise  # вызываем исключение повторно для прохождения тестов в test_utils.py

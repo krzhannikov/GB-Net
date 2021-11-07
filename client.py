@@ -40,7 +40,7 @@ class Client:
         raise ValueError
 
     def main(self):
-        '''Загружаем параметры коммандной строки'''
+        '''Загружаем параметры командной строки'''
         # client.py 192.168.88.254 4242
         try:
             server_address = sys.argv[1]
