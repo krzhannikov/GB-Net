@@ -1,0 +1,50 @@
+2021-11-15 20:37:43,460   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:37:43,460   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:37:43,973   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:37:43,993   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:31,545   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:43:31,556   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:43:31,567   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:43:31,610   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:43:31,631   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:43:31,631   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x00000250328FCEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:31,651   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x00000250328FCEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:31,651   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:31,652   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x00000250328FCEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции <module>
+2021-11-15 20:43:31,653   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x00000154E612CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:31,655   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x00000154E612CEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:31,656   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:31,656   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x00000154E612CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции <module>
+2021-11-15 20:43:32,082   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x000001871EA1CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,082   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x0000029CC8F0CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,084   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x000001871EA1CEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,084   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:32,085   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x000001871EA1CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции <module>
+2021-11-15 20:43:32,085   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x0000029CC8F0CEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,086   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:32,086   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x0000029CC8F0CEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции <module>
+2021-11-15 20:43:32,096   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x0000018A24AFCEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,099   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x0000018A24AFCEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции main
+2021-11-15 20:43:32,099   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:43:32,099   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x0000018A24AFCEB0>,), {}. Вызов из модуля __main__. Вызов из функции Client.main(new_client).Вызов из функции <module>
+2021-11-15 20:50:07,262   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:50:07,268   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:50:07,287   WARNING    client   Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию
+2021-11-15 20:50:07,305   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x0000020A52A8CEB0>,), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,306   DEBUG      client   Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61503), raddr=('127.0.0.1', 4242)>, {'action': 'presence', 'time': 1637002207.2882311, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,326   DEBUG      client   Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61503), raddr=('127.0.0.1', 4242)>,), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,327   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x0000020A52A8CEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,327   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:50:07,327   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x0000020A52A8CEB0>,), {}. Вызов из модуля __main__. Вызов из функции <module>
+2021-11-15 20:50:07,820   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x0000027D8F3DCEB0>,), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,822   DEBUG      client   Была вызвана функция send_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61502), raddr=('127.0.0.1', 4242)>, {'action': 'presence', 'time': 1637002207.7786102, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,822   DEBUG      client   Была вызвана функция create_presence c параметрами (<__main__.Client object at 0x0000012E26D1CEB0>,), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,823   DEBUG      client   Была вызвана функция send_message c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61501), raddr=('127.0.0.1', 4242)>, {'action': 'presence', 'time': 1637002207.7786102, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,825   DEBUG      client   Была вызвана функция get_message c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61501), raddr=('127.0.0.1', 4242)>,), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,825   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x0000012E26D1CEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,825   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:50:07,826   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x0000012E26D1CEB0>,), {}. Вызов из модуля __main__. Вызов из функции <module>
+2021-11-15 20:50:07,827   DEBUG      client   Была вызвана функция get_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61502), raddr=('127.0.0.1', 4242)>,), {}. Вызов из модуля common.utils. Вызов из функции main
+2021-11-15 20:50:07,828   DEBUG      client   Была вызвана функция process_ans c параметрами (<__main__.Client object at 0x0000027D8F3DCEB0>, {'response': 200}), {}. Вызов из модуля __main__. Вызов из функции main
+2021-11-15 20:50:07,828   DEBUG      client   Ответ сервера - 200 : OK
+2021-11-15 20:50:07,829   DEBUG      client   Была вызвана функция main c параметрами (<__main__.Client object at 0x0000027D8F3DCEB0>,), {}. Вызов из модуля __main__. Вызов из функции <module>
