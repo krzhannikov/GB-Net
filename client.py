@@ -7,6 +7,9 @@ import time
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.utils import get_message, send_message, validate_ip, validate_port
+import logging
+import logs.confs.client_log_config
+log = logging.getLogger('app.client')
 
 
 class Client:
@@ -36,11 +39,12 @@ class Client:
         if RESPONSE in message:
             if message[RESPONSE] == 200:
                 return '200 : OK'
+            log.warning('Был отправлен некорректный запрос.')
             return f'400 : {message[ERROR]}'
         raise ValueError
 
     def main(self):
-        '''Загружаем параметры коммандной строки'''
+        '''Загружаем параметры командной строки'''
         # client.py 192.168.88.254 4242
         try:
             server_address = sys.argv[1]
@@ -48,6 +52,7 @@ class Client:
             validate_port(server_port)
             validate_ip(server_address)
         except IndexError:
+            log.warning('Были введены некорректные порт/адрес. Подключаемся с параметрами по умолчанию')
             server_address = DEFAULT_IP_ADDRESS
             server_port = DEFAULT_PORT
 
@@ -59,9 +64,9 @@ class Client:
         send_message(transport, message_to_server)
         try:
             answer = self.process_ans(get_message(transport))
-            print(answer)
+            log.debug(f'Ответ сервера - {answer}')
         except (ValueError, json.JSONDecodeError):
-            print('Не удалось декодировать сообщение сервера.')
+            log.warning('Не удалось декодировать сообщение сервера.')
 
 
 if __name__ == '__main__':

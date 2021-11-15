@@ -1,4 +1,6 @@
 """Общие константы"""
+import os
+
 
 # Порт сервера по умолчанию
 DEFAULT_PORT = 4242
@@ -27,3 +29,7 @@ QUIT = 'quit'
 AUTH = 'authenticate'
 JOIN = 'join'
 LEAVE = 'leave'
+
+# Пути:
+ROOT_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+LOG_DIR = os.path.join(ROOT_DIR, 'logs', 'logs')
